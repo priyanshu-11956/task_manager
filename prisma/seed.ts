@@ -101,11 +101,11 @@ async function main() {
     { title: 'Design app wireframes', description: 'Create wireframes for all main screens', status: 'DONE', priority: 'URGENT', dueDate: new Date('2026-05-05'), projectId: project2.id, assigneeId: carol.id },
     { title: 'Set up React Native project', description: 'Initialize the mobile app with proper configuration', status: 'IN_PROGRESS', priority: 'HIGH', dueDate: new Date('2026-05-18'), projectId: project2.id, assigneeId: dave.id },
     { title: 'Implement push notifications', description: 'Add push notification support for iOS and Android', status: 'TODO', priority: 'MEDIUM', dueDate: new Date('2026-06-15'), projectId: project2.id, assigneeId: carol.id },
-    { title: 'Integrate Stripe payments', description: 'Set up Stripe SDK and payment flow', status: TaskStatus.IN_PROGRESS, priority: Priority.URGENT, dueDate: new Date('2026-05-12'), projectId: project3.id, assigneeId: alice.id },
-    { title: 'Set up analytics tracking', description: 'Implement Mixpanel or Amplitude for user analytics', status: TaskStatus.TODO, priority: Priority.LOW, dueDate: new Date('2026-06-20'), projectId: project3.id, assigneeId: dave.id },
-    { title: 'API documentation', description: 'Write OpenAPI spec and developer docs', status: TaskStatus.OVERDUE, priority: Priority.HIGH, dueDate: new Date('2026-05-01'), projectId: project3.id, assigneeId: alice.id },
-    { title: 'Performance optimization', description: 'Optimize page load times and bundle size', status: TaskStatus.TODO, priority: Priority.MEDIUM, dueDate: new Date('2026-06-10'), projectId: project1.id, assigneeId: bob.id },
-    { title: 'Accessibility audit', description: 'Run WCAG 2.1 compliance check and fix issues', status: TaskStatus.TODO, priority: Priority.LOW, dueDate: new Date('2026-07-01'), projectId: project1.id, assigneeId: alice.id },
+    { title: 'Integrate Stripe payments', description: 'Set up Stripe SDK and payment flow', status: 'IN_PROGRESS', priority: 'URGENT', dueDate: new Date('2026-05-12'), projectId: project3.id, assigneeId: alice.id },
+    { title: 'Set up analytics tracking', description: 'Implement Mixpanel or Amplitude for user analytics', status: 'TODO', priority: 'LOW', dueDate: new Date('2026-06-20'), projectId: project3.id, assigneeId: dave.id },
+    { title: 'API documentation', description: 'Write OpenAPI spec and developer docs', status: 'OVERDUE', priority: 'HIGH', dueDate: new Date('2026-05-01'), projectId: project3.id, assigneeId: alice.id },
+    { title: 'Performance optimization', description: 'Optimize page load times and bundle size', status: 'TODO', priority: 'MEDIUM', dueDate: new Date('2026-06-10'), projectId: project1.id, assigneeId: bob.id },
+    { title: 'Accessibility audit', description: 'Run WCAG 2.1 compliance check and fix issues', status: 'TODO', priority: 'LOW', dueDate: new Date('2026-07-01'), projectId: project1.id, assigneeId: alice.id },
   ];
 
   for (const task of tasks) {
