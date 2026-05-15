@@ -1,6 +1,6 @@
 import prisma from '@/lib/prisma';
 import { getAuthUser } from '@/lib/auth';
-import { apiSuccess, apiError, apiUnauthorized } from '@/lib/api-response';
+import { apiSuccess, apiError, apiUnauthorized, apiForbidden } from '@/lib/api-response';
 
 export async function GET() {
   try {
